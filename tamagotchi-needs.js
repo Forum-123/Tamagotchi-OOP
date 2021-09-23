@@ -18,3 +18,5 @@ class Tamagotchi{
 let Mametchi = new Tamagotchi('Mametchi', 3, 10, 7, 6);
 
 console.log(Mametchi)
+
+console.log("Is Mametchi a Tamagotchi?", (Mametchi instanceof Tamagotchi)); 
